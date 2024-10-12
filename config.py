@@ -1,0 +1,9 @@
+from os import environ as env 
+
+VINTED_URL = ""
+USE_TOKEN=False
+
+ACCOUNT_TOKEN = env["ACCOUNT_TOKEN"]
+
+ACCOUNT_NAME= env["ACCOUNT_NAME"]
+ACCOUNT_PASSWORD= env["ACCOUNT_PASSWORD"]
