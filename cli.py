@@ -1,7 +1,7 @@
-import click
+import argparse
 
-@click.command()
-@click.argument('name')
-@click.option('--config', '-g')
-def main(name, greeting):
-    click.echo("{}, {}".format(greeting, name))
+parser = argparse.ArgumentParser()
+parser.add_argument('')
+argparse.ArgumentParser()
+
+args = parser.parse_args()
